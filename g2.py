@@ -2,9 +2,12 @@ import math
 from Arm import Arm3Link
 from itertools import permutations
 import numpy as np
+import datetime
 
 if __name__ == '__main__':
     #creat the Arm3Link class for inverse kinematics
+    begin_time = 8055
+    duration_between = 10.4947368421
     arm = Arm3Link()
 
     #coordinates of the buttons (base_rotation, x, y)
@@ -30,6 +33,7 @@ if __name__ == '__main__':
     
     #print result, or output to file
     permutation_counter = 0
+    first_button = True
     with open ('ouput2.txt', 'w') as f:
         f.write("Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73);\n")
         for permutation in running_set:
@@ -46,10 +50,14 @@ if __name__ == '__main__':
                         f.write(str(joint_rotation)+',')
                         end_comma = end_comma+1
                     else:
-                        f.write(str(joint_rotation)+');\n')
-                        f.write("delay(200);\n")
-                        f.write("Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73);\n")
-                        f.write("delay(200);\n")
+                        if first_button:
+                            f.write(str(joint_rotation)+"); //at UTC TIME "+str(datetime.timedelta(seconds=begin_time))+ "\n")
+                            first_button=False
+                        else:
+                            f.write(str(joint_rotation)+"); //at UTC TIME "+str(datetime.timedelta(seconds=begin_time+duration_between))+ "\n")
+                            begin_time=begin_time+duration_between
+                        f.write("Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); \n")
+                        f.write("delay(5000);\n")
 
 
             #f.write('Returning to default setting'+'\n') # USE WHEN RETURN TO DEFAULT BETWEEN PERMUTATIONS
