@@ -1,3 +1,4 @@
+import sys
 import math
 from Arm import Arm3Link
 from itertools import permutations
@@ -6,7 +7,6 @@ import numpy as np
 if __name__ == '__main__':
     #creat the Arm3Link class for inverse kinematics
     arm = Arm3Link()
-
     #coordinates of the buttons (base_rotation, x, y)
     coordinates = [(30,12,13),(20,15,14),
                     (90,18,16),(3,20,15),
@@ -33,7 +33,7 @@ if __name__ == '__main__':
 
         #dictionary with corrected rotations as values to button keys
         coordinates_dic[button] = joint_rotations
-        print(coordinates_dic)
+    print(coordinates_dic)
 
     #method of arranging the buttons (combination, permutation, etc)
     p = permutations(coordinates,len(coordinates))
