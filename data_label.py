@@ -5,8 +5,9 @@ import pandas as pd
 df = pd.read_csv("sample.csv")
 
 label = []
+# numbers specify time when different button is pressed --------------------- modify as needed
 for i in range(df.shape[0]):
-    if i <= 1920:
+    if i <= 1920: 
         label.append(0)
     elif i > 1920 and i <= 3655:
         label.append(1)

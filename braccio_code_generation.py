@@ -10,7 +10,7 @@ if __name__ == '__main__':
     duration_between = 10.4237288136
     arm = Arm3Link()
 
-    #rotations of the buttons (base_rotation, x, y)
+    #rotations of the buttons (base_rotation, x, y) --------------------- modify as needed
     coordinates = [(30,         79, 89, 180, 177,    90,  73),
     (30,         87, 89, 180, 177,    90,  73),
                     (30,         98, 89, 180, 177,    90,  73),

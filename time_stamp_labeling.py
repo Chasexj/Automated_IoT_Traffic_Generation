@@ -5,7 +5,7 @@ import numpy as np
 import datetime
 
 if __name__ == '__main__':
-    #creat the Arm3Link class for inverse kinematics
+    # recorded time --------------------- modify as needed
     begin_time = 70412 
     duration_between = 10
     arm = Arm3Link()
