@@ -12,14 +12,6 @@ if __name__ == '__main__':
                     (90,18,16),(3,20,15),
                     (28,13,19)]
 
-    #specifying the amount of errors in each joint
-    ############# plot the errors
-    ############# curve fit
-    ############# video a demo
-    ############# Data Collection - IoT Inspector
-    ############# Or Rasp P
-
-    joint_errors = (2,3,1)
     coordinates_dic = {}
 
     #compute the buttons' corresponding joint rotations
@@ -31,16 +23,17 @@ if __name__ == '__main__':
         xy.append(button[1])
         xy.append(button[2])
 
-        #joint rotation (raw with no error input) in radian
+        #inversed joint rotations
         joint_rotations = arm.inv_kin(xy=xy)
 
         #radian -> degree with error input
         for i in range(3):
-            joint_rotations[i] = math.degrees(joint_rotations[i]) + joint_errors[i]
+            joint_rotations[i] = math.degrees(joint_rotations[i])
         joint_rotations = np.insert(joint_rotations,0,base_rotation)
 
         #dictionary with corrected rotations as values to button keys
         coordinates_dic[button] = joint_rotations
+        print(coordinates_dic)
 
     #method of arranging the buttons (combination, permutation, etc)
     p = permutations(coordinates,len(coordinates))
@@ -77,6 +70,6 @@ if __name__ == '__main__':
                         f.write(str(joint_rotation)+'\n')
 
             #f.write('Returning to default setting'+'\n') # USE WHEN RETURN TO DEFAULT BETWEEN PERMUTATIONS
-            #f.write('0 ,90 ,90 ,90'+'\n') # USE WHEN RETURN TO DEFAULT BETWEEN 
+            #f.write('0 ,90 ,90 ,90'+'\n') # USE WHEN RETURN TO DEFAULT BETWEEN presses
             
     #can modify the output syntax (add non moving joint rotations) before writing to file

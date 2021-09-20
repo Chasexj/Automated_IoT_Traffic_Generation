@@ -1,0 +1,313 @@
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73);
+//Permutation Number 0
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:17:40
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:17:50.423729
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:18:00.847458
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:18:11.271186
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 1
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:18:21.694915
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:18:32.118644
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:18:42.542373
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:18:52.966102
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 2
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:19:03.389831
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:19:13.813559
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:19:24.237288
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:19:34.661017
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 3
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:19:45.084746
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:19:55.508475
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:20:05.932203
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:20:16.355932
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 4
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:20:26.779661
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:20:37.203390
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:20:47.627119
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:20:58.050847
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 5
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:21:08.474576
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:21:18.898305
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:21:29.322034
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:21:39.745763
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 6
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:21:50.169492
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:22:00.593220
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:22:11.016949
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:22:21.440678
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 7
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:22:31.864407
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:22:42.288136
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:22:52.711864
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:23:03.135593
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 8
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:23:13.559322
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:23:23.983051
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:23:34.406780
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:23:44.830508
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 9
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:23:55.254237
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:24:05.677966
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:24:16.101695
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:24:26.525424
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 10
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:24:36.949153
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:24:47.372881
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:24:57.796610
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:25:08.220339
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 11
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:25:18.644068
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:25:29.067797
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:25:39.491525
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:25:49.915254
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 12
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:26:00.338983
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:26:10.762712
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:26:21.186441
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:26:31.610169
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 13
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:26:42.033898
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:26:52.457627
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:27:02.881356
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:27:13.305085
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 14
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:27:23.728814
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:27:34.152542
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:27:44.576271
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:27:55
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 15
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:28:05.423729
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:28:15.847458
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:28:26.271186
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:28:36.694915
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 16
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:28:47.118644
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:28:57.542373
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:29:07.966102
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:29:18.389831
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 17
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:29:28.813559
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:29:39.237288
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:29:49.661017
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:30:00.084746
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 18
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:30:10.508475
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:30:20.932203
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:30:31.355932
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:30:41.779661
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 19
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:30:52.203390
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:31:02.627119
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:31:13.050847
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:31:23.474576
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 20
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:31:33.898305
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:31:44.322034
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:31:54.745763
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:32:05.169492
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 21
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:32:15.593220
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:32:26.016949
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:32:36.440678
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:32:46.864407
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 22
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:32:57.288136
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:33:07.711864
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:33:18.135593
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:33:28.559322
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+//Permutation Number 23
+Braccio.ServoMovement(30,105,93,180,170,90,73); //at UTC TIME 1:33:38.983051
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,98,89,180,177,90,73); //at UTC TIME 1:33:49.406780
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,87,89,180,177,90,73); //at UTC TIME 1:33:59.830508
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);
+Braccio.ServoMovement(30,79,89,180,177,90,73); //at UTC TIME 1:34:10.254237
+Braccio.ServoMovement(30,         90, 75, 90, 170,    90,  73); 
+delay(5000);

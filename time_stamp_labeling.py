@@ -18,8 +18,8 @@ if __name__ == '__main__':
     #entire test suite
     running_set = []
 
-    #iterate through permutations
-    # with open ('alexa_p.txt', 'w') as f:
+    # #iterate through permutations
+    # with open ('timestamps/alexa_p.txt', 'w') as f:
     #     c_counter = 0
     #     for permutation in p:
     #         #all joint rotation degrees for a single permutation
@@ -32,8 +32,8 @@ if __name__ == '__main__':
     #                 begin_time=begin_time+duration_between
 
 
-
-    with open ('alexa_b.txt', 'w') as f:
+    # timestamp labeling for repeating button presses.
+    with open ('timestamps/alexa_b.txt', 'w') as f:
          c_counter = 0
          for i in coordinates:
              for j in range(15):

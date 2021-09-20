@@ -16,11 +16,9 @@ from statistics import mean, variance
 np.random.seed(0) # set random seed so everyone gets same results
 
 
-class WeatherPipeline:
+class Pipeline:
 
     def __init__(self):
-        #self.ordinal = sklearn.preprocessing.OrdinalEncoder()
-        #self.ordinal_features = ["RainToday"] # List of ordinal features
         # generate one hot encode object
         self.encode = preprocessing.OneHotEncoder(sparse=False) # we want a non-sparse matrix for concatenation
         self.onehot_features = ['src_ip','rts'] #List of the column names with nominal features that should be one-hot encoded
@@ -41,7 +39,7 @@ class WeatherPipeline:
         dataf = pd.concat([dataf, encoded], axis=1)
 
     def fit(self):
-        train_data = pd.read_csv("labeled.csv")
+        train_data = pd.read_csv("csv_files/labeled.csv")
         y = train_data["label"]
         train_data.drop(["label"], axis=1, inplace=True)
         #pre processing data
@@ -62,27 +60,27 @@ class WeatherPipeline:
 
             # ###### grid search for best hyperparameters
             # #Cross-validation folds
-            # k = 10
+            k = 10
             # #Hyperparameters to tune:
-            # params = {
-            #    'criterion': ('gini', 'entropy'),
-            #    'max_depth': (20, 40, 80),
-            #    'min_samples_split': (2, 5, 10),
-            #    'n_estimators': (200, 400, 800)
-            # }
-            # scoring = {'accuracy': make_scorer(accuracy_score),
-            #    'precision': make_scorer(precision_score, average = 'micro'),
-            #    'recall': make_scorer(recall_score, average = 'micro')}
+            params = {
+               'criterion': ('gini', 'entropy'),
+               'max_depth': (20, 40, 80),
+               'min_samples_split': (2, 5, 10),
+               'n_estimators': (200, 400, 800)
+            }
+            scoring = {'accuracy': make_scorer(accuracy_score),
+               'precision': make_scorer(precision_score, average = 'micro'),
+               'recall': make_scorer(recall_score, average = 'micro')}
             # #Initialize GridSearchCV object with decision tree classifier and hyperparameters
-            # grid_tree = GridSearchCV(estimator=RandomForestClassifier(random_state=0),
-            #                         param_grid=params,
-            #                         cv=k,
-            #                         return_train_score=True,
-            #                         scoring=scoring,
-            #                         refit='accuracy',
-            #                         verbose=10) 
-            # grid_tree.fit(X_train, y_train)
-            # self.best_tree = grid_tree.best_estimator_
+            grid_tree = GridSearchCV(estimator=RandomForestClassifier(random_state=0),
+                                    param_grid=params,
+                                    cv=k,
+                                    return_train_score=True,
+                                    scoring=scoring,
+                                    refit='accuracy',
+                                    verbose=10) 
+            grid_tree.fit(X_train, y_train)
+            self.best_tree = grid_tree.best_estimator_
             # print(pd.Series(self.best_tree.feature_importances_, train_data.columns).sort_values(ascending=False))
             # print(self.best_tree.get_params())
             # #results:
@@ -105,11 +103,8 @@ class WeatherPipeline:
 
 
             ######## with pre set hyperparameters
-            clf = RandomForestClassifier(bootstrap= True, ccp_alpha= 0.0, class_weight= None, criterion= 'entropy', max_depth= 40, max_features= 'auto', max_leaf_nodes= None, max_samples= None, min_impurity_decrease= 0.0, min_impurity_split= None, min_samples_leaf= 1, min_samples_split= 2, min_weight_fraction_leaf= 0.0, n_estimators= 800, n_jobs= None, oob_score= False, random_state= 0, verbose= 0, warm_start= False)
-            self.best_tree = clf
-            #cv = cross_validate(self.best_tree, X_train, y_train, cv=10)
-            #print(cv['test_score'])
-            #print(cv['test_score'].mean())
+            #clf = RandomForestClassifier(bootstrap= True, ccp_alpha= 0.0, class_weight= None, criterion= 'entropy', max_depth= 40, max_features= 'auto', max_leaf_nodes= None, max_samples= None, min_impurity_decrease= 0.0, min_impurity_split= None, min_samples_leaf= 1, min_samples_split= 2, min_weight_fraction_leaf= 0.0, n_estimators= 800, n_jobs= None, oob_score= False, random_state= 0, verbose= 0, warm_start= False)
+            #self.best_tree = clf
             #######
             
             # Make predictions for the test set
@@ -189,16 +184,6 @@ class WeatherPipeline:
         print("var f1 score: "+str(variance(weighted_f1)))
         
 
-    def predict(self):
-        test_data = pd.read_csv("Lab3_test.csv")
-        test_data.drop('Unnamed: 0', axis=1, inplace=True)
-        #pre processing data
-        self.pprocess(test_data)
-        predictions = self.best_tree.predict(test_data)
-        #print(predictions)
-        return predictions
-                
 
-obj = WeatherPipeline()
+obj = Pipeline()
 obj.fit()
-#obj.predict()

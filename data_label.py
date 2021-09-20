@@ -1,19 +1,8 @@
 import pandas as pd
 
+
+# labeling the nprint encoded csv using the recorded timestamps
 df = pd.read_csv("sample.csv")
-
-#number of buttons
-# label = []
-# num_b = 4
-# ins_per_b = int(df.shape[0]/4)
-# for i in range(num_b):
-#     for j in range(ins_per_b):
-#         label.append(i)
-# while(len(label)<df.shape[0]):
-#     label.append(num_b-1)
-
-# df['label'] = label
-# df.to_csv('labeled.csv',index=False)
 
 label = []
 for i in range(df.shape[0]):
