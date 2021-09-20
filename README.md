@@ -16,3 +16,6 @@ labeling nprint encoded pcaps packets with corresponding button presses accordin
 
 # rfc.py
 random forest classifier to perform machine learning evaluation on the labeled data.
+
+# nprint
+note that nprint is used to encode the captured pcaps, specific usage of nprint can be found at https://nprint.github.io/nprint/
