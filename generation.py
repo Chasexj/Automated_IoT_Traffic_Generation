@@ -7,7 +7,7 @@ import numpy as np
 if __name__ == '__main__':
     #creat the Arm3Link class for inverse kinematics
     arm = Arm3Link()
-    #coordinates of the buttons (base_rotation, x, y)
+    #coordinates of the buttons (base_rotation, x, y) --------------------- modify as needed
     coordinates = [(30,12,13),(20,15,14),
                     (90,18,16),(3,20,15),
                     (28,13,19)]
