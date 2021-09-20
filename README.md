@@ -16,20 +16,20 @@ git clone https://github.com/Chasexj/Automated_IoT_Traffic_Generation.git
 # generation.py
 script to 
 
-(1) produce corresponding arm rotations given x and y coordinates
+(1) produce corresponding arm rotations given x and y coordinates (as specified in comment on line 10)
 
 Note: scripts uses the Arm.py module which is an open source script for inverse kinematics from https://github.com/Chasexj/robotic_surgery/tree/master/src/ros/modified_arm/InvKin.
 
 (2) produce the permutation based test sets.
  
-# braccio_code.py
-script to produce permutation/repetition based test suites (in language Arduino Software (IDE) readable language) given the button-corresponding rotations.
+# braccio_code_generation.py
+Script to produce permutation/repetition based test suites (in language Arduino Software (IDE) readable language) given the button-corresponding rotations (as specified in comment on line 13).
 
 # time_stamp_labeling.py
-script to generate txt files containing relative timestamps of the button presses.
+script to generate txt files containing relative timestamps of the button presses. (as specified in comment on line 8)
 
-# data_label.py
-labeling nprint encoded pcaps packets with corresponding button presses according to the timestamps.
+# data_label.py 
+labeling nprint encoded pcaps packets with corresponding button presses according to the timestamps. (as specified in comment on line 8)
 
 # rfc.py
 random forest classifier to perform machine learning evaluation on the labeled data.
